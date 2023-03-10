@@ -20,7 +20,6 @@
             <li class="divider"></li>
 
             {% for collection in site.collections %}
-                <!-- <p>{{ collection.label }}</p> -->
                 {% if collection.output %}
                     {% if collection.label == "posts" %}
                         {% assign reversed_posts = site[collection.label] | reverse %}
@@ -50,12 +49,6 @@
                     {% endif %}
                 {% endif %}
             {% endfor %}
-
-            <li>
-                <a href="https://github.com/sighingnow/jekyll-gitbook/fork" target="blank" class="gitbook-link">
-                    Fork it Now!
-                </a>
-            </li>
         </ul>
     </nav>
 </div>

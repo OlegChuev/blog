@@ -1,9 +1,9 @@
 ---
-title: About
-author: Tao He
-date: 2022-02-04
+title: Contact
+author: Oleg Chuev
+date: 2022-03-10
 category: Jekyll
 layout: post
 ---
 
-This is an about page.
+This is an contact page.
