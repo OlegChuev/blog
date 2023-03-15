@@ -9,4 +9,7 @@ services:
           - 4000:4000
       volumes:
           - .:/site:cached
-          - ./vendor/bundle:/usr/local/bundle:cached
+          - bundle:/usr/local/bundle:cached
+
+volumes:
+  bundle:

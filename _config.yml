@@ -1,10 +1,11 @@
 # Configurations
 title:            Oleg Chuev blog
 longtitle:        Oleg Chuev blog
+tagline:          Blog about developers experience in Ruby, JS, bash and way more!
 author:           Oleg Chuev
 email:            chuevov@gmail.com
 description: >
-  Build Jekyll site with the GitBook style.
+  Blog about my experience as a developer!
 
 version:          1.0
 gitbook_version:  3.2.3
@@ -57,7 +58,14 @@ destination:      ./_site
 incremental:      false
 regenerate:       true
 
+# Tags
+# tag_page_layout: tag_page
+# tag_page_dir: tag
+# tag_permalink_style: pretty
+
 plugins:
   - jekyll-feed
   - jekyll-readme-index
   - jemoji
+  - jekyll-watch
+  # - jekyll-seo-tag

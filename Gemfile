@@ -8,3 +8,6 @@ gem 'jekyll-feed'
 gem 'jekyll-readme-index'
 gem 'jemoji'
 gem 'webrick'
+
+# Rebuild site when a file changes with the --watch switch
+gem 'jekyll-watch'
