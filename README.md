@@ -1,10 +1,11 @@
 ---
 layout: home
-title: Jekyll Gitbook Theme
+title: My Blog
 permalink: /
+cover: https://olegchuev.github.io/blog/assets/main_cover.gif
 ---
 
-Make Jelly site have a GitBook look!
+Let's bring some fun here!
 
 ## Demo
 
