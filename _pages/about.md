@@ -6,18 +6,6 @@ category: Bio
 layout: post
 ---
 
-💎 I'm a fullstack Ruby on Rails Developer.
-
-💻 Keen on Apple's products.
-
----
-
-Main and favorite technologies:
-
-Rails, Hotwire, Postgres
-
----
-
 Languages:
 
 - 🇬🇧 **English** - Upper-intermediate
