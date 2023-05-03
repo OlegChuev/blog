@@ -13,6 +13,7 @@
 .book.with-summary .book-body .book-header {
     position: fixed;
     width: calc(100% - 300px);
+    overflow-x: hidden;
     overflow-y: hidden;
 }
 
@@ -20,6 +21,14 @@
     /* position: absolute; */
     margin-top: 50px;
     min-height: calc(100% - 50px);
+}
+
+@media (max-width: 1240px) {
+    .book-body .body-inner {
+        position: absolute;
+        margin-top: 50px;
+        min-height: calc(100% - 50px)
+    }
 }
 
 .book-body .body-inner .page-wrapper {
